@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+
+    <van-button round type="danger" bindtap="addList">添加付款</van-button>
+    <van-button round type="danger" bindtap="sellectList">测试付款</van-button>
+    <van-button round type="danger" bindtap="ceshi">导入测试</van-button>
+    <view class="" hover-class="none" hover-stop-propagation="false">
+      {{memberList}}
+    </view>
+  </view>
+</view>
